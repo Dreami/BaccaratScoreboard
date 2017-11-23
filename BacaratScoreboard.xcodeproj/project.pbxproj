@@ -12,6 +12,7 @@
 		FB8138721F96BE4400395B72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8138701F96BE4400395B72 /* Main.storyboard */; };
 		FB8138741F96BE4400395B72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8138731F96BE4400395B72 /* Assets.xcassets */; };
 		FB8138771F96BE4400395B72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8138751F96BE4400395B72 /* LaunchScreen.storyboard */; };
+		FBAF86101FC64BEA00CB5F63 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAF860F1FC64BEA00CB5F63 /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FB8138731F96BE4400395B72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB8138761F96BE4400395B72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB8138781F96BE4400395B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBAF860F1FC64BEA00CB5F63 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				FB81386C1F96BE4400395B72 /* AppDelegate.swift */,
 				FB81386E1F96BE4400395B72 /* ViewController.swift */,
 				FB8138701F96BE4400395B72 /* Main.storyboard */,
+				FBAF860F1FC64BEA00CB5F63 /* MyCollectionViewCell.swift */,
 				FB8138731F96BE4400395B72 /* Assets.xcassets */,
 				FB8138751F96BE4400395B72 /* LaunchScreen.storyboard */,
 				FB8138781F96BE4400395B72 /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				FB81386F1F96BE4400395B72 /* ViewController.swift in Sources */,
 				FB81386D1F96BE4400395B72 /* AppDelegate.swift in Sources */,
+				FBAF86101FC64BEA00CB5F63 /* MyCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +288,7 @@
 				FB81387D1F96BE4400395B72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
